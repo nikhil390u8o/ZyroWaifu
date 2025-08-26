@@ -1,8 +1,8 @@
 FROM python:3.8.5-slim-buster
 
 ENV PIP_NO_CACHE_DIR=1
-ENV BOT_TOKEN=7392456702:AAEkFumYEFLORrOiCw9sgpndE74RyQcMEu8
-ENV CHAT_ID=-1002465116955
+ENV BOT_TOKEN=8357978062:AAH2vBBfynIBzcyuYQAcnwTtIT10iUDy5VM
+ENV CHAT_ID=-1002693680183
 
 # Install dependencies (wkhtmltopdf is not in buster repo, so install from .deb)
 RUN apt-get update && apt-get install -y \
